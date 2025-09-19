@@ -64,7 +64,6 @@ START-OF-SELECTION.
       APPEND '<html><head><style>' TO lt_mail_body.
       APPEND 'table { border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; }' TO lt_mail_body.
       APPEND 'th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }' TO lt_mail_body.
-*      APPEND 'th { background-color: #f2f2f2; text-transform: uppercase; }' TO lt_mail_body.
       APPEND 'th { background-color: #343a40; color: white; text-transform: uppercase; }' TO lt_mail_body.
       APPEND '</style></head><body>' TO lt_mail_body.
 
