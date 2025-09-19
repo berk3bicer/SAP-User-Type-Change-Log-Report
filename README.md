@@ -122,6 +122,8 @@ While the current version does exactly what I needed, there are some enhancement
 
 **Object-oriented refactoring** - Converting to ABAP OO would make the code more maintainable and testable.
 
+**Real-time Alerting for Critical Changes** - To supplement the daily report, an event-driven mechanism could be implemented to send instant notifications for high-risk modifications. For example, an immediate alert could be triggered if a 'System' or 'Service' user is converted to a 'Dialog' user, as this could represent a significant security vulnerability. This would likely involve implementing a user-exit or BAdI on user master data maintenance.
+
 ##  Why I Built This
 
 Every SAP shop needs to monitor user changes for security and compliance, but the standard tools either give you too much noise or require manual effort. I wanted something that would:
