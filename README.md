@@ -1,4 +1,4 @@
-# SAP User Type Change Monitor 🔍
+# SAP User Type Change Monitor 
 
 ##  What This Does
 
